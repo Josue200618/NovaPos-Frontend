@@ -14,14 +14,13 @@ import DashboardLayout from "../layouts/DashboardLayout";
 import PrivateRoute from "./PrivateRoute";
 import { UserDashboard } from "../features/users";
 import Dashboard from "../features/dashboard/pages/Dashboard";
-import Products from "../features/products/pages/Products";
-import Providers from "../features/providers/pages/Providers";
+import Products from "../features/products/pages/Products"
 import Purchases from "../features/purchases/pages/Purchases";
-import Sales from "../features/sales/pages/Sales";
 import Register from "../features/auth/pages/Register";
 import ForgotPassword from "../features/auth/pages/ForgotPassword";
 import ResetPassword from "../features/auth/pages/ResetPassword";
-
+import Providers from "../features/providers/pages/Providers";
+import Sales from "../features/sales/pages/Sales";
 
 export default function AppRouter(){
 
