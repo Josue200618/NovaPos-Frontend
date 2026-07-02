@@ -1,0 +1,1 @@
+export { default as PurchaseDashboard } from "./components/PurchaseDashboard";
